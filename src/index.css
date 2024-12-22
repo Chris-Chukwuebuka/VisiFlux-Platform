@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Tailwind  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+/* Custom CSS */
+.btn-purple {
+  background-color: #3F0B55; /* Purple color */
+  color: white; /* White text */
+}
+
+.btn-purple:hover {
+  background-color: #4e008e; /* Darker purple on hover */
+}
+/* Assuming this is in a global CSS file */
+.newsletter-input::placeholder {
+  color: white !important; /* Ensures the placeholder text is white */
+  opacity: 0.5; /* Adjust the opacity as needed */
+  padding-left: 5px; /* Adjust the padding as needed */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* footer */
+footer .list-unstyled li a{
+  text-decoration: none;
+  font-family: Lora;
+font-size: 13.38px;
+font-weight: 400;
+line-height: 26.75px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+footer .list-unstyled li {
+  text-decoration: none;
+  font-family: Lora;
+font-size: 13.38px;
+font-weight: 400;
+line-height: 26.75px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+/* service styles */
+.service-hero{
+  background-image: url('./Assets/ServiceImg.jpg');
+  background-size: cover;
+  background-position: center;
+height: 80vh;
+}
+.service-banner{
+  background-image: url('./Assets/servicebanner.jpg');
+  background-size: cover;
+  background-position: center;
+height: 50vh;
+}

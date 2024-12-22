@@ -1,0 +1,10 @@
+/* Custom CSS */
+.btn-purple {
+    background-color: #3F0B55; /* Purple color */
+    color: white; /* White text */
+  }
+  
+  .btn-purple:hover {
+    background-color: #4e008e; /* Darker purple on hover */
+  }
+  
